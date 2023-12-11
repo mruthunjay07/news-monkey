@@ -4,8 +4,6 @@ import { Link } from 'react-router-dom'
 
 
 export class Navbar extends Component {
-
-
     render() {
         return (
             <div>
@@ -28,12 +26,7 @@ export class Navbar extends Component {
                                     <li className="nav-item"> <Link className="nav-link" to="/Science">Science</Link> </li>
                                     <li className="nav-item"><Link className="nav-link" to="/Sports">Sports</Link> </li>
                                     <li className="nav-item"><Link className="nav-link" to="/Technology">Technology</Link> </li>
-                               
-                                
-                               
-                               
                             </ul>
-                           
                         </div>
                     </div>
                 </nav>
