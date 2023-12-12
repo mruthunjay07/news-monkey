@@ -9,7 +9,7 @@ import LoadingBar from "react-top-loading-bar";
 
 export default class App extends Component {
   pageSize = 5;
-  apiKey = process.env.REACT_APP_NEWS_API
+  apiKey = process.env.REACT_APP_NEWS_API || '51d191f5c4ab475ea1d26ee9f68e4eeb'
   constructor() {
     super();
     this.state = {
